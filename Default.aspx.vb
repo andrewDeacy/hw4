@@ -16,6 +16,7 @@ Partial Class _Default
         wage = WageTxt.Text
         pre = PreTxt.Text
         postIn = PostTxt.Text
+
         'calculating gross pay
         gross = wage * hoursWorked
         'subtractingn pre tax

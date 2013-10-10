@@ -5,9 +5,12 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
+<head><title>
+	
+
+       Andrew's Salary Calculator
+    
+</title><link rel="stylesheet" type="text/css" href="style.css" /></head>
 <body>
     <form id="form1" runat="server">
     <div>
