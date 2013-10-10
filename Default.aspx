@@ -18,31 +18,30 @@
         Hours Worked:</p>
     <p>
         <asp:TextBox ID="HoursTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Please Enter Hours Worked"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="HoursTxt" ErrorMessage="Please Enter Hours Worked"></asp:RequiredFieldValidator>
         </p>
     <p>
         Wage:</p>
     <p>
         <asp:TextBox ID="WageTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Please Enter Wage..."></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="WageTxt" ErrorMessage="Please Enter Wage..."></asp:RequiredFieldValidator>
         </p>
     <p>
         Pre-Tax Deductions:</p>
     <p>
         <asp:TextBox ID="PreTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Please Enter Pre-Tax Deductions"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="PreTxt" ErrorMessage="Please Enter Pre-Tax Deductions"></asp:RequiredFieldValidator>
         </p>
     <p>
         Post-Tax Deductions:</p>
     <p>
         <asp:TextBox ID="PostTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please Enter Post-Tax Deductions"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="PostTxt" ErrorMessage="Please Enter Post-Tax Deductions"></asp:RequiredFieldValidator>
         </p>
     <p>
         Net Income:</p>
     <p>
         <asp:TextBox ID="NItxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Enter Net Income"></asp:RequiredFieldValidator>
         </p>
     <p>
         <asp:Button ID="btnCalc" runat="server" Text="Calculate" />
